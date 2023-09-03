@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ConsolePrint : MonoBehaviour
 {
+    int i = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,7 @@ public class ConsolePrint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(name);
+        Debug.Log(name + " : " + i);
+        i++;
     }
 }
